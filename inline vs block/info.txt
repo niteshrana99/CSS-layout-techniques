@@ -1,0 +1,13 @@
+As we see in index.html h1 div, p are displayed in new lines. So these are block level elements. So block level Elements always occupy the available width and start with new line. We can check by setting bgcolor of p to green
+
+Inline elements only occupy the req witdth and displayed inline with other elements. We can check by setting the bgcolor to pink
+
+Display property in DETAIL:
+
+So there are inline and block level elements. We can use display property to customise web page,so we can change default properties of html elements::
+4 values can be set to display property:
+1.display:inline 
+2.display:block
+3.display:none == the elemnts will not be displayed on page and will not occupy any space.
+Diff from visibility:hidden: The element will not be displayed but space will be occupied
+4.display:inline-block=== It will have properties of inline as well block elements. So for block level we can specify them as inline. Also for inline elements we can't have width and height properties. So that span elements have width and height we specify it to be block. So if we want to go for box model properties we will need this property.
