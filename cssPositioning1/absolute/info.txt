@@ -1,0 +1,9 @@
+Absolute:
+After setting absolute if we set position to absolute element will be removed from normal flow and  it will be positioned acc to it's parent which is also positioned.An element is said to be positioned if it's value is anything other than static.
+
+By removing from normal flow we mean it's space will be occupied
+
+Index1.html
+PArent relation in index.html
+
+

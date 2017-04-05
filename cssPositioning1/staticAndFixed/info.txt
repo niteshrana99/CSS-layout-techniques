@@ -1,0 +1,6 @@
+We will see how we can position eleemnts
+Position property can have 4 values
+1. Static(default): We cannot use left right top or bottom. 
+2.Fixed:: We can set left right top or bottom properties. The element will be positioned wrt viewport(visible area of screen). So in case of scrollbar item will not move. It will be fixed.
+3.Absolute
+4.Relative

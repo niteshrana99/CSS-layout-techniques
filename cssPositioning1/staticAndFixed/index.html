@@ -1,0 +1,38 @@
+<!--For Position Fixed and Static-->
+<!doctype html>
+<html>
+    <head>
+        <title></title>
+        <style>
+            .box{
+                width: 400px;
+                height: 400px;
+/*                position: static; Won't change the default layout*/
+/*                position: fixed; Will place everything on top of each other. So every element will try to reside on viewport*/
+            }
+            #box1{
+                background-color: antiquewhite;
+            }
+            #box2{
+                background-color: black;
+            }
+            #box3{
+                background-color: green;
+            }
+            #box4{
+                background-color: indianred;
+                width:200px;
+                height: 200px;
+                left:900px;
+                top:100px;
+                position: fixed;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box" id="box1">box1</div>
+        <div class="box" id="box2">box2</div>
+        <div class="box" id="box3">box3</div>
+        <div class="box" id="box4">box4</div>
+    </body>
+</html>

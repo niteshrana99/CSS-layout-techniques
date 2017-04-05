@@ -1,0 +1,36 @@
+<!--For Position Relative and Absolute-->
+<!doctype html>
+<html>
+    <head>
+        <title></title>
+        <style>
+            .box{
+                width: 150px;
+                height: 150px;
+                position: relative;/* We see box1 is moved relative to it's position. If this property is set to fixed then margin 0px auto will have no effect*/
+            }
+            #box1{
+                background-color: antiquewhite;
+                margin: 0px auto;
+                left:150px;
+            }
+            #box2{
+                background-color: black;
+                margin: 0px auto;
+            }
+            #box3{
+                background-color: green;
+            }
+            #box4{
+                background-color: indianred;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box" id="box1">box1</div>
+        <div class="box" id="box2">box2</div>
+        <div class="box" id="box3">box3</div>
+        <div class="box" id="box4">box4</div>
+    </body>
+</html>

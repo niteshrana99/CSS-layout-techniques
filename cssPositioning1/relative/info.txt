@@ -1,0 +1,2 @@
+Relative:
+The element will be positioned relative to normal position. So when we use left right top or bottom property we can position the element wrt original position.
