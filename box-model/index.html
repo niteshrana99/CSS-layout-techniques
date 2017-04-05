@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+    <style>
+        #first{
+/*            width:50%;Here 50% is the 50% of parent ie.e here it is body*/
+            width:200px;
+            height:200px;
+            background-color: grey;
+            border: 5px solid black;
+            text-align: justify;
+            padding:80px;
+            margin:50px;
+        }
+        #second{
+/*            max-width:1500px;max insures there is no scrollbar*/
+            width:200px;
+            height:200px;
+            background-color: pink;
+            border: 5px solid purple;
+            text-align: justify;
+            padding:60px;
+/*            box-sizing: content-box; No change will happen as it is there by default*/
+/*            box-sizing: padding-box;Padding will be included in width so the totoal width is reduced  */
+/*            box-sizing: border-box; Best value. Because we just have to add margin. But not every browser supports this*/
+        }
+        span{
+            width:800px;
+            height: 67px;
+            background-color: red; 
+            border: 2px solid black;
+            padding: 10px;
+            margin: 40px; /*will not be applied to top and bottom */
+        }
+    </style>
+</head>
+<body>
+<p id="first">That was a hammer blow to Liverpool's hopes of winning a first trophy under Klopp but the target has always been Champions League football and that is now in serious jeopardy due to Mane's injury.t was a hammer blow to Liverpool's hopes of winning a first trophy under Klopp but the target has always been Champions League football and that is now in serious j</p>
+    <span>JOKER IS DEAD</span>
+    <p>The real fear is that they will now blow a <span>glorious </span>opportunity to secure a return to the<span> Champions League.</span></p>
+    <p id="second">That was a hammer blow to Liverpool's hopes of winning a first trophy under Klopp but the target has always been Champions League football and that is now in serious jeopardy due to Mane's injury. trophy under Klopp but the target has a</p>
+</body>
+</html>

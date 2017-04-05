@@ -1,0 +1,27 @@
+CSS box model is imp to set sixe of element. Acc to this model every element is a box. The total width or height is-- content+2*padding+2*border+2*padding
+
+WIDTH AND HEIGHT:::
+The height and width on span elements won't work. 
+
+BORDER: Border lies between margin and padding:
+
+total width: 200+5+5
+border: 5px solid black is eqivalent to
+border-width:5px
+border-style=solid
+border-color=black
+
+We cab also set border-top-style etc for all differnt border
+
+Similarly border-top-color Also if we want to set different width then border-top-width etc;
+
+MARGIN AND PADDINg: MArgin is outside border PAdding is between content and border.
+Different values can be set as padding-top, left , right, bottom
+Padding can also be added to inline elements.
+For inline elements margin can only be left and right not top and bottom
+
+Using box-sizing property.
+With the help of box sizing property we can change the way size is calculated.
+Default value:: box-sizing:content-box== when we want to know the total width we have to add content +2* padding + 2*border +2*margin which are by default.
+2. box-sizing: padding-box: In this case the padding values will be included within the specified width. So content will shrunk to accomodate the content. So we need only to add margin and border
+3. box-sizing:border-box:We need to add only margin. 
