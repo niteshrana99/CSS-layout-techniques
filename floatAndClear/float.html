@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+    <head>
+        <title></title>
+        <style>
+            .box{
+                width: 150px;
+                height: 150px;
+/*                float:left; Body is the parent in this case. Please check the property by resizing the browser*/
+                
+            }
+            #box1{
+                background-color: antiquewhite;
+               
+            }
+            #box2{
+                background-color: black;
+/*                float:right; We see the element is removed from normal flow*/
+            }
+            #box3{
+                background-color: green;
+            }
+            #box4{
+                background-color: indianred;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box" id="box1">box1</div>
+        <div class="box" id="box2">box2</div>
+        <div class="box" id="box3">box3</div>
+        <div class="box" id="box4">box4</div>
+    </body>
+</html>

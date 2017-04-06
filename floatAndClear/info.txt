@@ -1,0 +1,15 @@
+FLOAT:
+A float is a box that is shifted either to LHS or RHS. The content will flow down the left on right floated eleemnt and vice-versa
+In float.html at first the elements will be placed one below each other.
+If we use float property then first they will be positioned in normal flow and then they will be removed from normal flow and shift either to LHS or RHS of the parent given there is enough space in parent. If there is not enough space in parent, the elemets will be moved to 2nd row. On removing browser width it will move to second row.
+
+CLEAR:
+Now we will put float:left on box1 and box2. We see in output that the third box is not appearing in clear.html. So where is it gone?
+
+We see that the when box1 is set to float:left, then box1 is removed from normal flow, box2 goes similarly.Now box3 does not find box1 and box2 because these are removed from normal flow. So box3 goes behind box1. And box4 below it. 
+So in this case we use clear property. 4 values::
+1. left: The top edge of that element will sit below the left floated element.
+2. right:The top edge of that element will sit below the right floated element.
+3. both: the element will sit below element which is either leftt or right floated.
+4. inherit: Inherit clear property of parent.
+5.none
