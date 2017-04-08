@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+        </title>
+        <style>
+            #parent{
+                border: 5px solid black;
+                height:600px;
+                display: flex;
+                /*As justify content was used to horizontally alighn the elements. To vertically align we use align-items*/
+/*                align-items: center; Vertically centered*/
+/*                align-items: flex-start; From top*/
+/*                align-items: flex-end; From down*/
+/*                align-items: stretch; If we remove all the width and height then therse boxes will stretch vertically to fill the parent*/
+                align-items: baseline;/*baseline is an invisible line on which text sits. So if we increase the font size and we want to make sure that the font should come in singe line then this is the solutions*/
+            }
+            .child{
+                text-align: center;/*Horizontally center the text*/
+                line-height: 100px; /*vertically center for child1. */
+            }
+            #child1{
+                width:200px;
+                height:100px;
+                background-color: aqua;
+            }
+            #child2{
+                width:200px;
+                height:300px;
+                line-height: 300px;/*For vertical center the text*/
+                background-color: palegreen;
+            }
+            #child3{
+                width:200px;
+                height:150px;
+                background-color: midnightblue;
+            }
+            #child4{
+                width:200px;
+                height:200px;
+                background-color: chocolate;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="parent">
+            <div id="child1" class="child">CHILD 1</div>
+            <div id="child2" class="child">CHILD 2</div>
+            <div id="child3" class="child">CHILD 3</div>
+            <div id="child4" class="child">CHILD 4</div>
+        </div>
+    </body>
+</html>

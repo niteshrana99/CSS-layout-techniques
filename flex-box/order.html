@@ -1,0 +1,68 @@
+/*Until now we have seen all the properties of parents. Now we will see an important property of child items*/
+<!doctype html>
+<html>
+    <head>
+        <title>
+        </title>
+        <style>
+            #parent{
+                border: 5px solid black;
+                height:500px;
+                width:400px;
+                display: flex;
+            }
+            .child{
+                text-align: center;/*Horizontally center the text*/
+                height: 70px;
+                width:60px;
+            }
+            #child1{
+               
+                background-color: aqua;
+                order: 6;/*order can be -ve or +ve*/
+            }
+            #child2{
+                
+                background-color: palegreen;
+                order: 6.5;
+            }
+            #child3{
+               order: 6.5; /*Point values are taken as 0*/
+                background-color: midnightblue;
+            }
+            
+            #child4{
+               order:-1;
+                background-color: chocolate;
+            }
+           #child5{
+               order: 4;
+                background-color: orange;
+            }
+            #child6{
+               order:1;
+                background-color: black;
+            }
+            #child7{
+               order:0;
+                background-color: red;
+            }
+            #child8{
+               order:2;
+                background-color: yellow;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="parent">
+            <div id="child1" class="child">CHILD 1</div>
+            <div id="child2" class="child">CHILD 2</div>
+            <div id="child3" class="child">CHILD 3</div>
+            <div id="child4" class="child">CHILD 4</div>
+            <div id="child5" class="child">CHILD 5</div>
+            <div id="child6" class="child">CHILD 6</div>
+            <div id="child7" class="child">CHILD 7</div>
+            <div id="child8" class="child">CHILD 8</div>
+        </div>
+    </body>
+</html>

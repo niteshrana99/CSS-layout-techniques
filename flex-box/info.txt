@@ -1,0 +1,12 @@
+Flex-box layout:
+Provides easier way to adjust alignment, direction order and space distribution in container even when size of items is unknown or dynamic. The items will adjust the size acc to space.  Flexbox layout is direction agnostic.
+TERMS::
+
+1. Need of parent and child elements.
+2.Parent is reffered to as flex-container.(display: flex or inline-flex)
+3. Each direct child of flex-container is flex-child.
+4. x-axis: MAIN AXIS
+5. y-axis: CROSS AXIS
+6.Size of main axis is called main size and cross axis is called cross size
+
+

@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+        </title>
+        <style>
+            #parent{
+                border: 5px solid black;
+                height:500px;
+                width:400px;/*We see the width pf parent is 500px but width of 8 childs will be 480 px. But acc to flex-wrap property which is no-wrap by default all these items will be sisplayed in single line*/
+                margin: 50px auto;
+                display: flex;
+/*                flex-wrap: nowrap;It will be in same line*/
+                flex-wrap: wrap;/*Total width=400px total child width=480px So child 7 and 8 will be displayed in lower row. And there will be difference or space btw these rows. There is another property called align-content which decides how multiple lines can be displayed in flex-box*/
+/*                flex-wrap: wrap-reverse Reverse the wrap property*/
+                /*Another property called flex flow is the shorthand of flex-direction and flex-wrap*/
+/*                flex-flow: column wrap;*/
+                /*When flex-wrap is set to wrap we see the space btw two rows. So to remove this space we use align-content property*/
+/*                align-content: stretch;Default*/
+/*                align-content: flex-start; Lines will be packed together at start of container*/
+/*                align-content: flex-end; Packed at end of container*/
+/*                align-content: center; At the center*/
+/*                align-content: space-between;*/
+                align-content: space-around;
+            }
+            .child{
+                text-align: center;/*Horizontally center the text*/
+                height: 70px;
+                width:60px;
+            }
+            #child1{
+               
+                background-color: aqua;
+            }
+            #child2{
+                
+                background-color: palegreen;
+            }
+            #child3{
+               
+                background-color: midnightblue;
+            }
+            
+            #child4{
+               
+                background-color: chocolate;
+            }
+           #child5{
+               
+                background-color: orange;
+            }
+            #child6{
+               
+                background-color: black;
+            }
+            #child7{
+               
+                background-color: red;
+            }
+            #child8{
+               
+                background-color: yellow;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="parent">
+            <div id="child1" class="child">CHILD 1</div>
+            <div id="child2" class="child">CHILD 2</div>
+            <div id="child3" class="child">CHILD 3</div>
+            <div id="child4" class="child">CHILD 4</div>
+            <div id="child5" class="child">CHILD 5</div>
+            <div id="child6" class="child">CHILD 6</div>
+            <div id="child7" class="child">CHILD 7</div>
+            <div id="child8" class="child">CHILD 8</div>
+        </div>
+    </body>
+</html>
