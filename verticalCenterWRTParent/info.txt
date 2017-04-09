@@ -1,0 +1,6 @@
+We see the size of our image is 300 * 224 px;
+And the width and height of parent is 600 * 600px
+
+So left: 600-300=300/3=150px;
+
+top: 600-224/2=188px
