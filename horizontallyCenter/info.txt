@@ -1,0 +1,14 @@
+Horizontally center a block level element:
+
+margin: 10px; => sets the margin for top,right,bottom and left;
+margin: 10px 12px; => sets the margin of 10px for top,bottom and 12px for right and left;
+
+margin:12px 20px 30px
+12px=> top margin
+20px=> left and right margin
+30px=>bottom margin
+
+margin:10 12 12 13;
+all the four margins in order top, left, bottom, right
+
+To center a block level element horizontally we can specify the margin: auto or margin: 0px auto; where 0px is the margin for top and bottom and auto tells us to devide the left and right margins equally after fixin the element on it's given width.
